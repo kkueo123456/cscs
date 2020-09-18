@@ -18,6 +18,7 @@ const adminAdd=baseUrl+'/useradd'
 const adminList=baseUrl+'/userlist'
 const adminDel=baseUrl+'/userdelete'
 const adminEdit=baseUrl+'/useredit'
+const Login=baseUrl+'/userlogin'
 export default {
   MenuList,
   MenuAdd,
@@ -33,5 +34,6 @@ export default {
   adminAdd,
   adminList,
   adminDel,
-  adminEdit
+  adminEdit,
+  Login
 }
